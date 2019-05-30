@@ -6,7 +6,7 @@
         <v-spacer></v-spacer>
         <v-btn
           flat
-          href="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tomasbjerre/pom-dependency-analyzer-web/master/swagger.yml"
+          href="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tomasbjerre/pom-dependency-analyzer-web-api/master/swagger.yml"
           target="_blank"
         >
           <span class="mr-2">Swagger</span>
