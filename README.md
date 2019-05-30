@@ -1,6 +1,6 @@
-# Pom Dependency Analyzer Web
+# Pom Dependency Analyzer Web Frontend
 
-[![Build Status](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web.svg?branch=master)](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web)
+[![Build Status](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web-frontend.svg?branch=master)](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web-frontend)
 [![NPM](https://img.shields.io/npm/v/pom-dependency-analyzer-web-frontend.svg?style=flat-square) ](https://www.npmjs.com/package/pom-dependency-analyzer-web-frontend)
 
 See [Pom Dependency Analyzer Web](https://github.com/tomasbjerre/pom-dependency-analyzer-web) for example usage!
