@@ -10,6 +10,7 @@
     "format": "./node_modules/.bin/prettier --single-quote --write '{public,src}/**/*.!(sh|png|*ignore|ico|svg|*pts)' --write '*.?(json|js)'",
     "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i swagger.yml -o src/services/pdaw --additional-properties supportsES6=true"
   },
+  "files": ["dist/*"],
   "dependencies": {
     "axios": "^0.18.0",
     "bluebird": "^3.3.5",
