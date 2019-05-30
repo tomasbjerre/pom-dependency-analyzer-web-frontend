@@ -8,7 +8,7 @@
     "build": "npm install --verbose && npm run generate-client && npm run format && vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
     "format": "./node_modules/.bin/prettier --single-quote --write '{public,src}/**/*.!(sh|png|*ignore|ico|svg|*pts)' --write '*.?(json|js)'",
-    "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i ../swagger.yml -o src/services/pdaw --additional-properties supportsES6=true"
+    "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i swagger.yml -o src/services/pdaw --additional-properties supportsES6=true"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -55,12 +55,12 @@
     "last 2 versions"
   ],
   "bugs": {
-    "url": "https://github.com/tomasbjerre/pom-dependency-web/issues"
+    "url": "https://github.com/tomasbjerre/pom-dependency-analyzer-web-frontend/issues"
   },
-  "homepage": "https://github.com/tomasbjerre/pom-dependency-web#readme",
+  "homepage": "https://github.com/tomasbjerre/pom-dependency-analyzer-web-frontend",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomasbjerre/pom-dependency-web.git"
+    "url": "git+https://github.com/tomasbjerre/pom-dependency-analyzer-web-frontend.git"
   }
 }
